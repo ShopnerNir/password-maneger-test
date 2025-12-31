@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🔐 Password Manager</h1>
+
+  <form id="passwordForm">
+    <input type="text" id="site" placeholder="Website Name" required>
+    <input type="url" id="url" placeholder="Website Link">
+    <input type="text" id="username" placeholder="Username / Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <textarea id="notes" placeholder="Other Details"></textarea>
+    <button type="submit">Save Password</button>
+  </form>
+
+  <input type="text" id="search" placeholder="🔍 Search website...">
+
+  <div id="passwordList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
